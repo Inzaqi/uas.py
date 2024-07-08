@@ -75,5 +75,13 @@ def pembagi_indeks1(nums, divisor):
 
 vals = [100, 66, 55, 64, 41, 35, 18, 64]
 print(f'7. pembagi_indeks1([100, 66, 55, 64, 41, 35, 18, 64], 5) = {pembagi_indeks1(vals, 5)}')
-
+#8
+def mystery(n,m):
+    p=0
+    e=0
+    while p < n :
+        p= + 1
+        e= 0
+    return p
+print(mystery(4,3))
 
