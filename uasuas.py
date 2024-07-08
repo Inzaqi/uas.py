@@ -76,12 +76,17 @@ def pembagi_indeks1(nums, divisor):
 vals = [100, 66, 55, 64, 41, 35, 18, 64]
 print(f'7. pembagi_indeks1([100, 66, 55, 64, 41, 35, 18, 64], 5) = {pembagi_indeks1(vals, 5)}')
 #8
-def mystery(n,m):
-    p=0
-    e=0
-    while p < n :
-        p= + 1
-        e= 0
+def mystery(n, m):
+    p = 0
+    e = 0
+    while e < n:
+        p = n
+        e = e + m
     return p
-print(mystery(4,3))
 
+print(f'8. mystery(4, 3) = {mystery(4, 3)}')
+
+# Pelacakan nilai p dan e:
+print("\nPelacakan nilai p dan e:")
+print("Iterasi 1: p = 4, e = 3")
+print("Iterasi 2: p = 4, e = 6")
